@@ -9,7 +9,7 @@ const Index = () => {
           {/* Hero Section */}
           <div className="space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Simple Test Project
+              Simple Test Project (cool branch)
             </h1>
             <p className="text-lg text-muted-foreground max-w-md mx-auto">
               A clean, minimal starting point for your next great idea.
