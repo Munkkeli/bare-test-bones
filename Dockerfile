@@ -42,7 +42,9 @@ ENV NODE_ENV=production
 
 USER 1000:1000
 
-RUN npm i -g --unsafe-perm serve
+ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
+ENV PATH=$PATH:/home/node/.npm-global/bin
+RUN npm i -g serve
 
 EXPOSE 80
 ENV PORT=80
