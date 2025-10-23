@@ -7,5 +7,5 @@ components:
   - name: Lovable
     identifier: lovable
     folder: /
-    package: https://github.com/diploi/component-lovable#v1
+    package: https://github.com/diploi/component-lovable#main
 addons: []
