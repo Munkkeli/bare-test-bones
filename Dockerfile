@@ -42,7 +42,7 @@ ENV NODE_ENV=production
 
 USER 1000:1000
 
-RUN npm i -g serve
+RUN npm i -g --unsafe-perm serve
 
 EXPOSE 80
 ENV PORT=80
